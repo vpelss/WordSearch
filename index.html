@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//SoftQuad Software//DTD HoTMetaL PRO 6.0::19990601::extensions to HTML 4.0//EN" "hmpro6.dtd">
+<HTML> 
+  <HEAD> 
+	 <TITLE>Word Search Puzzle Printable </TITLE> 
+  </HEAD> 
+  <BODY BACKGROUND="wordsearch.gif"> 
+	 <CENTER> 
+		<TABLE CELLPADDING="0" CELLSPACING="1" BGCOLOR="#000000" WIDTH="10"> 
+		  <TR> 
+			 <TD> 
+				<TABLE CELLPADDING="5" CELLSPACING="0" BGCOLOR="#FFFFFF"
+				 BORDER="0"> 
+				  <TR> 
+					 <TD> 
+						<H3>Multilingual WordSearch Puzzle</H3> 
+						<FORM ACTION="/cgi/wordsearch/wordsearch.cgi" METHOD="POST"
+						 NAME="MyForm"> 
+						  <P>Difficulty 
+							 <SELECT NAME="difficulty" SIZE="1"> 
+								<OPTION VALUE="1">Horizontal and vertical only
+								  (easy)</OPTION> 
+								<OPTION VALUE="2">Down-right diagonals allowed</OPTION>
+								
+								<OPTION VALUE="3">Down-right and down-left diagonals
+								  allowed</OPTION> 
+								<OPTION VALUE="4" SELECTED="SELECTED">All directions
+								  and reversing words allowed (Hard)</OPTION> 
+							 </SELECT></P> 
+						  <P>Size (size x size)
+							 <INPUT TYPE="TEXT" NAME="width" VALUE="20" SIZE="3"> (5 - 50)</P> 
+						  <P>Number of words
+							 <INPUT TYPE="TEXT" NAME="numberofwords" VALUE="50" SIZE="3"> (5-500)</P> 
+						  <P>Remove words starting with Capitals. (Normally names)
+							 <INPUT TYPE="CHECKBOX" NAME="nonames" VALUE="1"></P> 
+						  <P> Word lists: 
+							 <SELECT NAME="wordfilename" SIZE="1"> 
+								<OPTION VALUE="words/english.txt"
+								 SELECTED="SELECTED">English words</OPTION> 
+								<OPTION VALUE="words/kjv.txt">King James Bible</OPTION>
+								
+								<OPTION VALUE="words/moby.txt">Moby Dick</OPTION> 
+								<OPTION VALUE="words/afrikaans.txt">Afrikaans
+								  words</OPTION> 
+								<OPTION VALUE="words/danish.txt">Danish words</OPTION> 
+								<OPTION VALUE="words/dutch.txt">Dutch words</OPTION> 
+								<OPTION VALUE="words/finnish.txt">Finnish
+								  words</OPTION> 
+								<OPTION VALUE="words/french.txt">French words</OPTION> 
+								<OPTION VALUE="words/french-eng.txt">French English
+								  words</OPTION> 
+								<OPTION VALUE="words/german.txt">German words</OPTION> 
+								<OPTION VALUE="words/italian.txt">Italian
+								  words</OPTION> 
+								<OPTION VALUE="words/norway.txt">Norway words</OPTION> 
+								<OPTION VALUE="words/portuguese.txt">Portuguese
+								  words</OPTION> 
+								<OPTION VALUE="words/spanish.txt">Spanish
+								  words</OPTION> 
+								<OPTION VALUE="words/swedish.txt">Swedish
+								  words</OPTION> 
+							 </SELECT> <BR><FONT COLOR="#CC0000">OR</FONT><BR>Enter
+							 your own word list below. (examples:
+							 <A HREF="/cgi/wordsearch/countries.txt" TARGET="_blank">countries.txt</A> or
+							 <A HREF="/cgi/wordsearch/dinosaurs.txt" TARGET="_blank">dinosaurs.txt</A> copy
+							 and paste) Leave blank to use the word lists above.<BR><TEXTAREA NAME="wordlist" ROWS="4" COLS="30"></TEXTAREA><BR><INPUT
+							 TYPE="BUTTON" NAME="Button1" VALUE="Clear Word List"
+							 ONCLICK="document.MyForm.wordlist.value='';"></P>
+                                                 <!-- <P>Email <INPUT TYPE="TEXT" NAME="email"> (not
+                                                         required)</P> -->
+						  <P><INPUT TYPE="SUBMIT" NAME="Submit1"
+							 VALUE="Generate Puzzle"></P> 
+						  <P></P> 
+						  <P><INPUT TYPE="RESET" NAME="Reset1"
+							 VALUE="Reset to defaults"></P></FORM> 
+						<P><A HREF="/wordsearch/">Word Search Puzzles Archive</A></P>
+						
+						<P><A HREF="/contact">Contact Us</A></P>
+
+
+<!--FB share below-->
+         <DIV ID="fb-root"></DIV> <SCRIPT>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=47755733258&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</SCRIPT>
+
+<CENTER>
+<div class="fb-like" data-href="https://apps.facebook.com/emogicwordsearch/" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+</CENTER>
+<!--FB share end-->
+					 </TD> 
+				  </TR> 
+				</TABLE></TD> 
+		  </TR> 
+		</TABLE> </CENTER> </BODY>
+</HTML>
