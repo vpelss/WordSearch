@@ -4,6 +4,7 @@ print "Content-type: text/html\n\n";
 
 eval {
       use strict;
+      use lib '.';
       #load up common variables and routines. // &cgierr
       require "vars.cgi";
       #JSON module
